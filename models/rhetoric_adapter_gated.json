@@ -1,0 +1,52 @@
+{
+  "model_name": "GatedFusionAdapter",
+  "version": "1.0.0",
+  "parameters": 1582594,
+  "architecture": {
+    "text_dim": 768,
+    "vision_dim": 768,
+    "proj_dim": 512,
+    "dropout": 0.3,
+    "gate_type": "sigmoid_channel_gate"
+  },
+  "training": {
+    "dataset": "VLDBench (Protocol A 7.4k Cohort)",
+    "n_train": 5173,
+    "n_val": 1157,
+    "n_test": 1094,
+    "seed": 42,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "early_stopping_patience": 3,
+    "best_val_macro_f1": 0.6620,
+    "best_val_balanced_accuracy": 0.6708
+  },
+  "test_metrics": {
+    "accuracy": 0.6472,
+    "balanced_accuracy": 0.6480,
+    "macro_f1": 0.6454,
+    "roc_auc": 0.7086,
+    "class_0_unlikely": {
+      "precision": 0.5888,
+      "recall": 0.6549,
+      "f1": 0.6201
+    },
+    "class_1_likely": {
+      "precision": 0.7030,
+      "recall": 0.6411,
+      "f1": 0.6706
+    }
+  },
+  "gate_statistics": {
+    "overall_mean_text_gate": 0.3819,
+    "overall_mean_vision_gate": 0.6181,
+    "interpretation": "Modality Salience Weight (Text vs Vision)"
+  },
+  "deployment": {
+    "decision_threshold": 0.50,
+    "sanitization_required": true,
+    "text_encoder": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "vision_encoder": "openai/clip-vit-base-patch32"
+  }
+}

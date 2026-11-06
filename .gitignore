@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env
+
+# PyTorch & HuggingFace Caches
+.cache/
+huggingface/
+torch/
+*.pt.cache
+*.bin
+*.safetensors
+
+# Large Raw Datasets (Store externally or via LFS / download scripts)
+datasets/raw/
+datasets/external/
+*.parquet
+*.arrow
+*.tar.gz
+*.zip
+
+# Local SQLite Databases & Locks (Preserve privacy of collected news)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite
+data/*.sqlite3
+data/news_intelligence.db*
+!data/evidence_corpus.jsonl
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project Backups & Scratch Dirs
+backups/
+.backup_p0/
+*.bak*
+scratch/
+non_existent_dir/
+
+# Streamlit internal state
+.streamlit/secrets.toml
+data/raw/newsclippings/embeddings/

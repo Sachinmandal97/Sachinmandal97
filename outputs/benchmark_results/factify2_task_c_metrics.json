@@ -1,0 +1,101 @@
+{
+  "dataset_name": "factify2",
+  "task_id": "TASK_C",
+  "split": "val",
+  "timestamp_utc": "2026-10-13T11:20:46.126366+00:00",
+  "total_requested": 5,
+  "total_evaluated": 5,
+  "total_failed": 0,
+  "coverage_rate": 1.0,
+  "error_rate": 0.0,
+  "total_execution_time_sec": 35.145,
+  "mean_latency_per_sample_sec": 7.029,
+  "metrics": {
+    "total_samples": 5,
+    "accuracy": 0.8,
+    "accuracy_ci_95": {
+      "lower": 0.3755,
+      "upper": 0.9638
+    },
+    "accuracy_standard_error": 0.1789,
+    "balanced_accuracy": 0.8333,
+    "macro_precision": 0.8333,
+    "macro_recall": 0.8333,
+    "macro_f1": 0.7778,
+    "weighted_f1": 0.8,
+    "per_class": {
+      "SUPPORTED": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3
+      },
+      "MISLEADING": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667,
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "tn": 3
+      },
+      "UNCERTAIN": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "support": 2,
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "tn": 3
+      }
+    },
+    "confusion_matrix_raw": {
+      "SUPPORTED": {
+        "SUPPORTED": 2,
+        "MISLEADING": 0,
+        "UNCERTAIN": 0
+      },
+      "MISLEADING": {
+        "SUPPORTED": 0,
+        "MISLEADING": 1,
+        "UNCERTAIN": 0
+      },
+      "UNCERTAIN": {
+        "SUPPORTED": 0,
+        "MISLEADING": 1,
+        "UNCERTAIN": 1
+      }
+    },
+    "confusion_matrix_normalized": {
+      "SUPPORTED": {
+        "SUPPORTED": 1.0,
+        "MISLEADING": 0.0,
+        "UNCERTAIN": 0.0
+      },
+      "MISLEADING": {
+        "SUPPORTED": 0.0,
+        "MISLEADING": 1.0,
+        "UNCERTAIN": 0.0
+      },
+      "UNCERTAIN": {
+        "SUPPORTED": 0.0,
+        "MISLEADING": 0.5,
+        "UNCERTAIN": 0.5
+      }
+    }
+  },
+  "roc_auc": null,
+  "config_parameters": {
+    "protocol": "c2",
+    "ablation": "none",
+    "threshold_cm": 0.22,
+    "seed": 42,
+    "total_available_in_split": 5
+  }
+}

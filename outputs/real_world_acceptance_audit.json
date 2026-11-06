@@ -1,0 +1,307 @@
+{
+  "feed_connectivity": {
+    "the_hindu_national": {
+      "name": "The Hindu (National)",
+      "type": "rss",
+      "url": "https://www.thehindu.com/news/national/feeder/default.rss",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.288,
+      "sample_headline": "Andhra civic polls: TDP, YSRCP workers clash in Pulivendula; 37.13% turnout by 1 p.m. | LIVE"
+    },
+    "ndtv_top_stories": {
+      "name": "NDTV Top Stories",
+      "type": "rss",
+      "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.386,
+      "sample_headline": "Telangana Woman, 2 Lovers Kill Husband, Throw Body Into Lake To Stage It As Crash"
+    },
+    "times_of_india_top": {
+      "name": "Times of India",
+      "type": "rss",
+      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.161,
+      "sample_headline": "'India not a banana republic': BJP attacks Rahul Gandhi ahead of INDIA bloc rally"
+    },
+    "indian_express_india": {
+      "name": "Indian Express",
+      "type": "rss",
+      "url": "https://indianexpress.com/section/india/feed/",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.16,
+      "sample_headline": "On way to Ramlila Ground, Rahul Gandhi says \u2018BJP forcibly shut shops at Connaught Place\u2019"
+    },
+    "bbc_world_news": {
+      "name": "BBC News (World)",
+      "type": "rss",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.264,
+      "sample_headline": "Shops looted as German cost of living protests turn violent"
+    },
+    "guardian_world_news": {
+      "name": "The Guardian (World)",
+      "type": "rss",
+      "url": "https://www.theguardian.com/world/rss",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.133,
+      "sample_headline": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg"
+    },
+    "npr_world_news": {
+      "name": "NPR (World News)",
+      "type": "rss",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "status": "HTTP_200_SUCCESS",
+      "articles_found": 5,
+      "latency_sec": 0.12,
+      "sample_headline": "Secretary Rubio has a tough time getting officials at G20 on the same page"
+    },
+    "gdelt_india_doc": {
+      "name": "GDELT DOC 2.0 (India News API)",
+      "type": "gdelt",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(sourcecountry:IN%20sourcelang:eng)&mode=ArtList&maxrecords=15&format=json",
+      "status": "FAILED: <urlopen error _ssl.c:1011: The handshake operation timed out>",
+      "articles_found": 0,
+      "latency_sec": 8.251
+    },
+    "gdelt_global_doc": {
+      "name": "GDELT DOC 2.0 (Global English News)",
+      "type": "gdelt",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(sourcelang:eng)&mode=ArtList&maxrecords=15&format=json",
+      "status": "FAILED: <urlopen error _ssl.c:1011: The handshake operation timed out>",
+      "articles_found": 0,
+      "latency_sec": 8.27
+    }
+  },
+  "live_articles_collected": [
+    {
+      "id": "art_9663234f0096",
+      "publisher": "The Hindu (National)",
+      "headline": "Andhra civic polls: TDP, YSRCP workers clash in Pulivendula; 37.13% turnout by 1 p.m. | LIVE",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-urban-local-body-elections-polling-municipalities-corporation-results-november-1-2026-live-updates/article71651965.ece",
+      "image_url": null
+    },
+    {
+      "id": "art_5385d03be9e8",
+      "publisher": "The Hindu (National)",
+      "headline": "Uttarakhand chopper crash: Mortal remains of all six victims recovered, sent to Rishikesh AIIMS",
+      "url": "https://www.thehindu.com/news/national/uttarakhand/uttarakhand-chopper-crash-mortal-remains-of-all-six-victims-recovered-sent-to-rishikesh-aiims/article71652291.ece",
+      "image_url": "https://th-i.thgim.com/public/incoming/wji19x/article71652317.ece/alternates/LANDSCAPE_1200/PTI11_01_2026_000089B.jpg"
+    },
+    {
+      "id": "art_a7ea0d29f9f8",
+      "publisher": "The Hindu (National)",
+      "headline": "Mysuru City Corporation collects \u20b9210 crore in property tax so far this year: Yathindra Siddaramaiah",
+      "url": "https://www.thehindu.com/news/national/karnataka/mysuru-city-corporation-collects-210-crore-in-property-tax-so-far-this-year-yathindra-siddaramaiah/article71652335.ece",
+      "image_url": "https://th-i.thgim.com/public/incoming/p518wa/article71652386.ece/alternates/LANDSCAPE_1200/MCC-renews-pushGKHGN7PJB.3.jpg.jpg"
+    },
+    {
+      "id": "art_213d24ac972a",
+      "publisher": "The Hindu (National)",
+      "headline": "Foolish drama, will be final nail in coffin of Congress' political future: Nadda",
+      "url": "https://www.thehindu.com/news/national/foolish-drama-will-be-final-nail-in-coffin-of-congress-political-future-nadda/article71652408.ece",
+      "image_url": "https://th-i.thgim.com/public/incoming/cmxuk4/article71652412.ece/alternates/LANDSCAPE_1200/PTI11_01_2026_000029B.jpg"
+    },
+    {
+      "id": "art_9164190462ad",
+      "publisher": "The Hindu (National)",
+      "headline": "Anantapur chainsaw attack: A.P. Minister Nara Lokesh says Class 10 girl stable after bleeding controlled",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/anantapur-chainsaw-attack-ap-minister-nara-lokesh-says-class-10-girl-stable-after-bleeding-controlled/article71651991.ece",
+      "image_url": "https://th-i.thgim.com/public/incoming/n4zsk2/article71652321.ece/alternates/LANDSCAPE_1200/20260418265L.jpg"
+    },
+    {
+      "id": "art_b1e3d612f932",
+      "publisher": "NDTV Top Stories",
+      "headline": "Telangana Woman, 2 Lovers Kill Husband, Throw Body Into Lake To Stage It As Crash",
+      "url": "https://www.ndtv.com/telangana-news/telangana-woman-2-lovers-kill-husband-throw-body-into-lake-to-stage-it-as-crash-12264745",
+      "image_url": "https://c.ndtvimg.com/mu57eahs_telangana-police-generic_625x300_31_July_18.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720"
+    },
+    {
+      "id": "art_2030dc123713",
+      "publisher": "NDTV Top Stories",
+      "headline": "INDIA Bloc Begins Delhi Rally, BJP Calls It \"Foolish Orchestrated Drama\"",
+      "url": "https://www.ndtv.com/delhi-news/india-bloc-and-bjp-to-hold-rival-marches-in-delhi-traders-warn-of-diwali-losses-12265869",
+      "image_url": "https://c.ndtvimg.com/2026-11/u8smp3j8_protest_625x300_01_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720"
+    },
+    {
+      "id": "art_324a33b29ce5",
+      "publisher": "NDTV Top Stories",
+      "headline": "Stalking, Rejected Proposal Behind Andhra School Chainsaw Attack: Sources",
+      "url": "https://www.ndtv.com/india-news/anantapur-andhra-school-chainsaw-attack-stalking-rejected-proposal-lokesh-nara-zilla-parishad-high-school-raptadu-village-12265999",
+      "image_url": "https://c.ndtvimg.com/2026-10/7vf5affg_andhra-school-chainsaw-attack_625x300_31_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720"
+    },
+    {
+      "id": "art_7f861893efab",
+      "publisher": "NDTV Top Stories",
+      "headline": "On CCTV, MBA Student Steals Thar Tyres In Hyderabad, Took Tools From Puncture Shop",
+      "url": "https://www.ndtv.com/hyderabad-news/hyderabad-mba-student-steals-thar-tyres-borrowed-tools-from-puncture-shop-12265957",
+      "image_url": "https://c.ndtvimg.com/2026-11/bqbkok2k_hyderabad-theft_625x300_01_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720"
+    },
+    {
+      "id": "art_fe3e04d2001b",
+      "publisher": "NDTV Top Stories",
+      "headline": "INDIA Bloc Rally, BJP Protest March LIVE Updates: \"You Must Come,\" Says Rahul Gandhi Before 'Chalo Dilli' March",
+      "url": "https://www.ndtv.com/india-news/india-bloc-rally-live-updates-chalo-dilli-march-ramlila-maidan-protest-india-bloc-vs-bjp-counter-march-loktantra-bachao-arajakta-hatao-rahul-gandhi-de-12266124",
+      "image_url": "https://c.ndtvimg.com/2026-11/lhdd0h8o_bjp-india-bloc-rallies_625x300_01_November_26.jpeg"
+    }
+  ],
+  "distinguish_live_vs_seed": {
+    "total_articles_in_main_db": 0,
+    "table_columns": [
+      "article_id",
+      "canonical_url",
+      "original_url",
+      "headline",
+      "description",
+      "publisher",
+      "country",
+      "region",
+      "language",
+      "published_at",
+      "collected_at",
+      "image_url",
+      "content_hash",
+      "source_feed",
+      "processing_status",
+      "created_at",
+      "updated_at"
+    ],
+    "has_explicit_seed_flag": false,
+    "current_method": "source_feed prefix and initial batch population"
+  },
+  "polling_mechanism": {
+    "has_background_thread": false,
+    "has_button_trigger": true,
+    "mode": "Manual user button trigger (on-demand)"
+  },
+  "image_download_tests": [
+    {
+      "article_id": "art_5385d03be9e8",
+      "headline": "Uttarakhand chopper crash: Mortal remains of all six victims recovered, sent to Rishikesh AIIMS",
+      "image_url": "https://th-i.thgim.com/public/incoming/wji19x/article71652317.ece/alternates/LANDSCAPE_1200/PTI11_01_2026_000089B.jpg",
+      "download_success": true,
+      "download_latency_sec": 0.131,
+      "image_size": [
+        1200,
+        675
+      ],
+      "note": "Successfully retrieved and converted to RGB"
+    },
+    {
+      "article_id": "art_a7ea0d29f9f8",
+      "headline": "Mysuru City Corporation collects \u20b9210 crore in property tax so far this year: Yathindra Siddaramaiah",
+      "image_url": "https://th-i.thgim.com/public/incoming/p518wa/article71652386.ece/alternates/LANDSCAPE_1200/MCC-renews-pushGKHGN7PJB.3.jpg.jpg",
+      "download_success": true,
+      "download_latency_sec": 0.065,
+      "image_size": [
+        1200,
+        675
+      ],
+      "note": "Successfully retrieved and converted to RGB"
+    },
+    {
+      "article_id": "art_213d24ac972a",
+      "headline": "Foolish drama, will be final nail in coffin of Congress' political future: Nadda",
+      "image_url": "https://th-i.thgim.com/public/incoming/cmxuk4/article71652412.ece/alternates/LANDSCAPE_1200/PTI11_01_2026_000029B.jpg",
+      "download_success": true,
+      "download_latency_sec": 0.075,
+      "image_size": [
+        1200,
+        675
+      ],
+      "note": "Successfully retrieved and converted to RGB"
+    }
+  ],
+  "bounded_queue_results": [
+    {
+      "article_id": "art_9663234f0096",
+      "verdict": "Uncertain",
+      "confidence": 0.4,
+      "visual_score": null,
+      "visual_status": "text_only",
+      "latency_sec": 57.8
+    },
+    {
+      "article_id": "art_5385d03be9e8",
+      "verdict": "Partially Supported / Some Details Unverified",
+      "confidence": 0.65,
+      "visual_score": 0.2092,
+      "visual_status": "evaluated",
+      "latency_sec": 10.22
+    },
+    {
+      "article_id": "art_a7ea0d29f9f8",
+      "verdict": "Supported",
+      "confidence": 0.7399,
+      "visual_score": 0.2861,
+      "visual_status": "evaluated",
+      "latency_sec": 11.94
+    }
+  ],
+  "retrieved_evidence": [
+    {
+      "source": "Wikipedia: PSLV-C43",
+      "snippet": "The PSLV-C43 was the 45th mission of the Indian Polar Satellite Launch Vehicle (PSLV) program. It carried and deployed a",
+      "title": "PSLV-C43",
+      "relevance_score": 0.8683,
+      "is_relevant": true
+    },
+    {
+      "source": "Wikipedia: PSLV-C38",
+      "snippet": "PSLV-C38 was the 40th mission of the Indian Polar Satellite Launch Vehicle (PSLV) program and its 17th mission in the XL",
+      "title": "PSLV-C38",
+      "relevance_score": 0.8257,
+      "is_relevant": true
+    },
+    {
+      "source": "Hindustan Times (via Google News)",
+      "snippet": "Isro's navigation satellite NVS-03 lifts off from Andhra Pradesh's Sriharikota | India News - Hindustan Times. Isro's na",
+      "title": "Isro's navigation satellite NVS-03 lifts off from Andhra Pradesh's Sriharikota | India News - Hindustan Times",
+      "relevance_score": 0.7867,
+      "is_relevant": true
+    }
+  ],
+  "deberta_evaluation": {
+    "claim": "ISRO launched a space mission from Sriharikota in Andhra Pradesh.",
+    "evidence_snippet": "The PSLV-C43 was the 45th mission of the Indian Polar Satellite Launch Vehicle (PSLV) program. It carried and deployed a",
+    "predicted_relation": "entailment",
+    "p_entailment": 0.9988,
+    "p_neutral": 0.0006,
+    "p_contradiction": 0.0006,
+    "latency_sec": 0.897
+  },
+  "eiffel_taj_regression": {
+    "claim": "The Eiffel Tower is located in Paris, France.",
+    "visual_score": 0.1958,
+    "mismatch_detected": true,
+    "pipeline_verdict": "Uncertain",
+    "status": "FAIL"
+  },
+  "text_only_audit": {
+    "similarity_score_is_none": true,
+    "similarity_score_value": null,
+    "has_image": false,
+    "status": "text_only",
+    "audit_pass": true
+  },
+  "latency_breakdown": {
+    "rss_feed_fetch_per_feed_sec": 0.216,
+    "publisher_image_download_sec": 0.09,
+    "openclip_inference_sec": 0.185,
+    "deberta_nli_inference_sec": 0.897,
+    "sqlite_storage_sec": 0.002,
+    "full_batch_3_articles_sec": 80.011
+  },
+  "threshold_framing": {
+    "readme_explicit_context": true,
+    "config_explicit_context": true,
+    "status": "PASS: Clearly framed as calibrated for NewsCLIPpings Task A, not universally valid for open live news."
+  }
+}

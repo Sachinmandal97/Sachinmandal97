@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>The Hindu National News</title>
+    <link>https://www.thehindu.com/news/national/</link>
+    <description>National news coverage from The Hindu</description>
+    <item>
+      <title>ISRO successfully launches navigation satellite NVS-01 aboard GSLV rocket</title>
+      <link>https://www.thehindu.com/sci-tech/science/isro-launches-nvs-01-satellite/article123456.ece?utm_source=rss&amp;utm_medium=feed</link>
+      <description><![CDATA[The Indian Space Research Organisation has successfully placed the second-generation navigation satellite into geostationary transfer orbit from Sriharikota spaceport.]]></description>
+      <pubDate>Mon, 29 May 2026 05:42:00 +0530</pubDate>
+      <enclosure url="https://th-i.thgim.com/public/incoming/satellite_launch.jpg" type="image/jpeg" length="102400" />
+    </item>
+    <item>
+      <title>Union Cabinet approves national green hydrogen mission incentives</title>
+      <link>https://www.thehindu.com/business/green-hydrogen-incentives-cabinet/article789012.ece?fbclid=IwAR123</link>
+      <description><![CDATA[The Union Cabinet has sanctioned financial outlays for domestic electrolyser manufacturing and green hydrogen production hubs across five coastal states.]]></description>
+      <pubDate>Tue, 30 May 2026 14:10:00 +0530</pubDate>
+      <media:content url="https://th-i.thgim.com/public/incoming/hydrogen_plant.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Supreme Court reserves judgment on inter-state river water sharing dispute</title>
+      <link>https://www.thehindu.com/news/national/sc-reserves-judgment-river-water/article345678.ece</link>
+      <description><![CDATA[A three-judge bench concluded hearings on the allocation formula for surplus river flows during monsoon deficit seasons.]]></description>
+      <pubDate>Wed, 31 May 2026 18:20:00 +0530</pubDate>
+    </item>
+  </channel>
+</rss>

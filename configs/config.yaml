@@ -1,0 +1,52 @@
+# Single MVP Configuration
+# Explainable Evidence-Augmented Multimodal Misinformation Verification
+
+project:
+  name: "multimodal-misinfo-verifier"
+  version: "0.1.0"
+  seed: 42
+  device: "cpu"
+
+paths:
+  data_raw: "./data/raw"
+  data_processed: "./data/processed"
+  data_corpus: "./data/corpus"
+  outputs: "./outputs"
+
+dataset:
+  name: "newsclippings"
+  sample_size_limit: 50 # Small verified sample for fast local CPU evaluation
+
+models:
+  clip_model: "openai/clip-vit-base-patch32"
+  nli_model: "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
+  dense_embedder: "BAAI/bge-small-en-v1.5"
+
+ocr:
+  engine: "easyocr"
+  languages: ["en"]
+  gpu: false
+
+retrieval:
+  top_k: 3
+  enable_live_search: true
+  relevance_threshold: 0.20
+  cache_ttl_seconds: 3600
+
+thresholds:
+  cross_modal_mismatch_cutoff: 0.28  # Calibrated operating threshold (evaluated on validation set N=7,024)
+  nli_entailment_cutoff: 0.60
+  nli_contradiction_cutoff: 0.50
+
+news_intelligence:
+  database_path: "./data/news_intelligence.db"
+  sources_config_path: "./configs/news_sources.json"
+  max_articles_per_feed: 10
+  request_timeout_seconds: 8
+  verification_batch_size: 3
+  rss_enabled: true
+  gdelt_enabled: true
+  gdelt_timeout_seconds: 6
+  gdelt_retries: 2
+  scheduled_polling_interval_seconds: 300
+

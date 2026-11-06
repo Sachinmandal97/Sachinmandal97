@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "url": "https://www.reuters.com/world/europe/european-union-approves-renewable-energy-law-2026-10-20/?utm_source=twitter",
+      "url_mobile": "https://m.reuters.com/world/europe/european-union-approves-renewable-energy-law-2026-10-20/",
+      "title": "European Union passes binding target to reach 45 percent renewable energy by 2030",
+      "seendate": "20261020T123000Z",
+      "socialimage": "https://cloudfront.reuters.com/images/solar_panels_europe.jpg",
+      "domain": "reuters.com",
+      "language": "English",
+      "sourcecountry": "European Union"
+    },
+    {
+      "url": "https://timesofindia.indiatimes.com/city/mumbai/coastal-road-project-inaugurates-twin-tunnels-traffic/articleshow/88129481.cms",
+      "url_mobile": "https://m.timesofindia.indiatimes.com/city/mumbai/coastal-road-project-inaugurates-twin-tunnels-traffic/articleshow/88129481.cms",
+      "title": "Mumbai opens landmark coastal road twin undersea tunnels for public vehicular traffic",
+      "seendate": "20261021T091500Z",
+      "socialimage": "https://static.toiimg.com/thumb/coastal_road_mumbai.jpg",
+      "domain": "timesofindia.indiatimes.com",
+      "language": "English",
+      "sourcecountry": "India"
+    }
+  ]
+}

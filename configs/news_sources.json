@@ -1,0 +1,110 @@
+[
+  {
+    "source_id": "the_hindu_national",
+    "name": "The Hindu (National)",
+    "country": "India",
+    "region": "India",
+    "category": "national",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "https://www.thehindu.com/news/national/feeder/default.rss",
+    "enabled": true,
+    "description": "Leading Indian national daily newspaper covering domestic policy, governance, and national developments."
+  },
+  {
+    "source_id": "ndtv_top_stories",
+    "name": "NDTV Top Stories",
+    "country": "India",
+    "region": "India",
+    "category": "general",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+    "enabled": true,
+    "description": "Major Indian news network delivering real-time national, economic, and political coverage."
+  },
+  {
+    "source_id": "times_of_india_top",
+    "name": "Times of India",
+    "country": "India",
+    "region": "India",
+    "category": "general",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    "enabled": true,
+    "description": "Widely circulated Indian daily covering major breaking headlines, national and metropolitan news."
+  },
+  {
+    "source_id": "indian_express_india",
+    "name": "Indian Express",
+    "country": "India",
+    "region": "India",
+    "category": "national",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "https://indianexpress.com/section/india/feed/",
+    "enabled": true,
+    "description": "Prominent investigative journalism and national reporting across India."
+  },
+  {
+    "source_id": "bbc_world_news",
+    "name": "BBC News (World)",
+    "country": "United Kingdom",
+    "region": "International",
+    "category": "world",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "enabled": true,
+    "description": "Global international news reporting from the British Broadcasting Corporation."
+  },
+  {
+    "source_id": "guardian_world_news",
+    "name": "The Guardian (World)",
+    "country": "United Kingdom",
+    "region": "International",
+    "category": "world",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "https://www.theguardian.com/world/rss",
+    "enabled": true,
+    "description": "International affairs, diplomatic reporting, and global investigations."
+  },
+  {
+    "source_id": "npr_world_news",
+    "name": "NPR (World News)",
+    "country": "United States",
+    "region": "International",
+    "category": "world",
+    "language": "en",
+    "feed_type": "rss",
+    "url": "https://feeds.npr.org/1004/rss.xml",
+    "enabled": true,
+    "description": "National Public Radio international news and long-form reporting."
+  },
+  {
+    "source_id": "gdelt_india_doc",
+    "name": "GDELT DOC 2.0 (India News API)",
+    "country": "India",
+    "region": "India",
+    "category": "live_discovery",
+    "language": "en",
+    "feed_type": "gdelt",
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(sourcecountry:IN%20sourcelang:eng)&mode=ArtList&maxrecords=15&format=json",
+    "enabled": true,
+    "description": "Real-time automated article discovery from Indian media sources via the GDELT Project."
+  },
+  {
+    "source_id": "gdelt_global_doc",
+    "name": "GDELT DOC 2.0 (Global English News)",
+    "country": "Global",
+    "region": "International",
+    "category": "live_discovery",
+    "language": "en",
+    "feed_type": "gdelt",
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(sourcelang:eng)&mode=ArtList&maxrecords=15&format=json",
+    "enabled": true,
+    "description": "Global real-time automated media monitoring across international news domains via GDELT."
+  }
+]

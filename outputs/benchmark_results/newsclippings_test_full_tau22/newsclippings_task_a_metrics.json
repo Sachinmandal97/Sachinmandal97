@@ -1,0 +1,77 @@
+{
+  "dataset_name": "newsclippings",
+  "task_id": "TASK_A",
+  "split": "test",
+  "timestamp_utc": "2026-10-13T16:18:21.590589+00:00",
+  "total_requested": 7264,
+  "total_evaluated": 7264,
+  "total_failed": 0,
+  "coverage_rate": 1.0,
+  "error_rate": 0.0,
+  "total_execution_time_sec": 1.419,
+  "mean_latency_per_sample_sec": 0.0,
+  "metrics": {
+    "total_samples": 7264,
+    "accuracy": 0.5468,
+    "accuracy_ci_95": {
+      "lower": 0.5353,
+      "upper": 0.5582
+    },
+    "accuracy_standard_error": 0.0058,
+    "balanced_accuracy": 0.5468,
+    "macro_precision": 0.6904,
+    "macro_recall": 0.5468,
+    "macro_f1": 0.4415,
+    "weighted_f1": 0.4415,
+    "per_class": {
+      "pristine": {
+        "precision": 0.5251,
+        "recall": 0.981,
+        "f1": 0.684,
+        "support": 3632,
+        "tp": 3563,
+        "fp": 3223,
+        "fn": 69,
+        "tn": 409
+      },
+      "falsified": {
+        "precision": 0.8556,
+        "recall": 0.1126,
+        "f1": 0.199,
+        "support": 3632,
+        "tp": 409,
+        "fp": 69,
+        "fn": 3223,
+        "tn": 3563
+      }
+    },
+    "confusion_matrix_raw": {
+      "pristine": {
+        "pristine": 3563,
+        "falsified": 69
+      },
+      "falsified": {
+        "pristine": 3223,
+        "falsified": 409
+      }
+    },
+    "confusion_matrix_normalized": {
+      "pristine": {
+        "pristine": 0.981,
+        "falsified": 0.019
+      },
+      "falsified": {
+        "pristine": 0.8874,
+        "falsified": 0.1126
+      }
+    }
+  },
+  "roc_auc": 0.7197,
+  "config_parameters": {
+    "protocol": "c2",
+    "ablation": "none",
+    "threshold_cm": 0.22,
+    "seed": 42,
+    "total_available_in_split": 7264
+  }
+}

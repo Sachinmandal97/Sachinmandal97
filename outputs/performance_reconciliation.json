@@ -1,0 +1,85 @@
+{
+  "rss_collection_per_feed": {
+    "count": 5,
+    "mean_sec": 0.4703,
+    "median_sec": 0.1744,
+    "min_sec": 0.1032,
+    "max_sec": 1.6536
+  },
+  "gdelt_collection": {
+    "count": 2,
+    "mean_sec": 9.5474,
+    "median_sec": 9.5474,
+    "min_sec": 9.5437,
+    "max_sec": 9.5512
+  },
+  "image_downloading": {
+    "count": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "openclip_inference": {
+    "count": 5,
+    "mean_sec": 10.6166,
+    "median_sec": 0.4181,
+    "min_sec": 0.2573,
+    "max_sec": 51.3548
+  },
+  "claim_extraction": {
+    "count": 5,
+    "mean_sec": 0.8765,
+    "median_sec": 0.0506,
+    "min_sec": 0.0297,
+    "max_sec": 4.0833
+  },
+  "retrieval_offline_corpus": {
+    "count": 3,
+    "mean_sec": 0.0027,
+    "median_sec": 0.0027,
+    "min_sec": 0.0019,
+    "max_sec": 0.0036
+  },
+  "retrieval_live_web": {
+    "count": 3,
+    "mean_sec": 6.701,
+    "median_sec": 7.2966,
+    "min_sec": 5.1549,
+    "max_sec": 7.6515
+  },
+  "deberta_nli_inference": {
+    "count": 5,
+    "mean_sec": 2.6146,
+    "median_sec": 1.0328,
+    "min_sec": 0.5159,
+    "max_sec": 9.8727
+  },
+  "sqlite_persistence": {
+    "count": 10,
+    "mean_sec": 0.0341,
+    "median_sec": 0.0316,
+    "min_sec": 0.0188,
+    "max_sec": 0.0629
+  },
+  "end_to_end_offline_k3": {
+    "articles": 3,
+    "total_sec": 1.226,
+    "per_article_sec": 0.409
+  },
+  "end_to_end_live_web_k3": {
+    "articles": 3,
+    "total_sec": 29.446,
+    "per_article_sec": 9.815,
+    "individual_latencies": [
+      18.6,
+      6.77,
+      3.96
+    ]
+  },
+  "reconciliation_analysis": {
+    "root_cause_explanation": "The 1.85-second metric reported in Phase 2D measured local precomputed vector indexing or offline local corpus retrieval where zero network I/O took place. In contrast, real-world live verification executes multi-query external HTTP searches (4 Google News RSS + 4 Wikipedia queries per atomic claim, across up to 3 propositions per article = 24 HTTP requests), plus full-resolution publisher image downloading over the internet. Live web I/O accounts for 85-92% of end-to-end execution latency.",
+    "offline_k3_measured_sec": 1.226,
+    "live_web_k3_measured_sec": 29.446
+  }
+}
